@@ -1,0 +1,8 @@
+\select@language {naustrian}
+\contentsline {chapter}{\numberline {1}Bluetooth-Modul}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}section 1}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}subsection 1}{1}{subsection.1.1.1}
+\contentsline {paragraph}{\nonumberline Erstes}{1}{section*.2}
+\contentsline {paragraph}{\nonumberline Zweites}{1}{section*.3}
+\contentsline {chapter}{Abbildungsverzeichnis}{1}{section*.4}
+\contentsline {chapter}{Tabellenverzeichnis}{2}{section*.6}
