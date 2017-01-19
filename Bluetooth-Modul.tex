@@ -10,6 +10,7 @@ Um eine leichtere Handhabung zu ermöglichen, muss auch ein Adapterprint für da
 Wie bereits erwähnt soll das BT-Modul mit möglichst viele Geräten kompatibel sein, also mit einer älteren BT-Version laufen. Es sollte weiterhin eine möglichst einfache Bedienung für den Benutzer ermöglichen (beispielsweise Play-/Pausetaste).\\
 Außerdem soll es bei geringen Kosten eine möglichst gute Verbindung, d.h. einen hohe Reichweite, erzielt werden.\\ \\
 Nach ausführlicher Recherche wurde das Modul \enquote{XS3868 Revision 3} ausgewählt. Der darauf verbaute Chip \enquote{OVC3860} von \enquote{OmniVision Technologies} hat sich bereits in vielen anderen Projekten bewährt. 
+%% Revision richtig?????
 
 \chapter{Bluetooth-Modul XS3868}
 \section{OVC3860}
@@ -35,6 +36,26 @@ Die UART-Schnittstelle befindet sich auf den Pins 18-19.\\
 Außerdem verfügt das Modul auch über eine Mikrofon-Funktion, die aber in diesem Projekt nicht verwendet wird.
 
 \section{Inbetriebnahme}
+Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
+\begin{figure} [h]
+	\centering
+	\caption{Prinzipschaltung XS3868}
+	\includegraphics[width=1\textwidth]{img/XS3868_Prinzipschaltung}
+\end{figure} \\
+Mit dieser Schaltung kann das Modul bereits ordnungsgemäß arbeiten.\\
+Die Status-LED ist, wie in Abbildung 2.3 dargestellt, \enquote{Low-Aktiv}. Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.\\
+Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet. Dieser Ton wird auch beim Starten des Moduls abgespielt.\\
+Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noch ein Verstärker verbaut werden.\\
+Die Versorgungsspannung ist mit 4V etwas höher gewählt damit es nicht zu Ausfällen durch Spannungsschwankungen kommt. Das XS3868-Modul hat eine Stromaufnahme von ca. 30mA beim Starten, 10mA im Stand-By und bis zu 100mA wenn Musik abgespielt wird.
+
+\section{Verbindung mit dem Modul}
+Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten. Er erscheint auf einem Smartphone so:
+
+%% HIER FEHLT NOCH EIN BILD!!!!!
+
+
+
+
 
 
 
