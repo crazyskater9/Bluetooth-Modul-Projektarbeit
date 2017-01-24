@@ -17,7 +17,7 @@ Nach ausführlicher Recherche wurde das Modul \enquote{XS3868 Revision 3} ausgew
 
 \chapter{Bluetooth-Modul XS3868}
 \section{OVC3860}
-In dem Chip \ref {fig:abb2.1} ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut. Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann. Eine kleine LiPo-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Fall nicht verwendet.\\
+In dem Chip (Abb. \ref {fig:abb2.1}) ist außer der Bluetooth-Verbindung auch noch ein Stereo-Audio-Prozessor verbaut. Zusätzlich gibt es noch eine UART-Schnittstelle mithilfe man einige Einstellungen am Chip vornehmen kann. Eine kleine LiPo-Ladeschaltung ist ebenfalls vorhanden, wird aber in diesem Fall nicht verwendet.\\
 Das Modul benötigt eine Versorgungsspannung von 3,3V bis 4,2V, wobei der Chip mit 1,8V versorgt wird. Diese Spannung wird auf dem Modul erzeugt.\\
 Die verwendete BT-Version ist 2.0. Einige GPIO-Pins sind auf das Modul herausgeführt um Funktionen wie \enquote{Play/Pause} zu ermöglichen. Der Chip benötigt einen externen Speicher und eine Antenne (auf dem Modul) um ordnungsgemäß zu funktionieren.
 \begin{figure} [h]
@@ -50,7 +50,7 @@ Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
 	\label {fig:abb2.3}
 	\includegraphics[width=1\textwidth]{schaltungen/XS3868_Prinzipschaltung.png}
 \end{figure} \\
-Mit dieser Schaltung \ref {fig:abb2.3} kann das Modul bereits ordnungsgemäß arbeiten.\\
+Mit dieser Schaltung (Abb. \ref {fig:abb2.3}) kann das Modul bereits ordnungsgemäß arbeiten.\\
 Die Versorgungsspannung ist mit 4V etwas höher gewählt damit es nicht zu Ausfällen durch Spannungsschwankungen kommt. Das XS3868-Modul hat eine Stromaufnahme von ca. 30mA beim Starten, 10mA im Stand-By und bis zu 100mA wenn Musik abgespielt wird.\\ \\
 Die Status-LED ist, wie in Abbildung \ref {fig:abb2.3} dargestellt, \enquote{Low-Aktiv}. Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.\\ \\
 Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet. Dieser Ton wird auch beim Starten des Moduls abgespielt.\\ \\
@@ -69,7 +69,7 @@ Als Entwicklungsprogramm für beide Leiterplatten wurde  \enquote{Altium Designe
 
 
 \section{Adapter-Board}
-Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board (Abbildung \ref{fig:abb3.1}) vorgesehen um eine einfachere Handhabung mit dem Modul zu ermöglichen. Als Anschlussmöglichkeiten werden Stiftleisten verwendet.\\
+Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board (Abb. \ref{fig:abb3.1}) vorgesehen um eine einfachere Handhabung mit dem Modul zu ermöglichen. Als Anschlussmöglichkeiten werden Stiftleisten verwendet.\\
 Die Schaltung ist deshalb auch sehr simpel aufgebaut:
 \begin{figure} [h]
 	\centering
@@ -79,7 +79,7 @@ Die Schaltung ist deshalb auch sehr simpel aufgebaut:
 \end{figure} \\
 Jeder Pin bekommt auch auf dem Adapter einen eigenen Pin auf der Stiftleiste.
 \newpage
-Das PCB (Abbildung \ref{fig:abb3.2}) ist, wie bereits erwähnt, einseitig aufgebaut:
+Das PCB (Abb. \ref{fig:abb3.2}) ist, wie bereits erwähnt, einseitig aufgebaut:
 \begin{figure} [h]
 	\centering
 	\caption{PCB des Adapter-Boards}
@@ -96,7 +96,7 @@ Das Hauptboard wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur W
 Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt. Zugang zur seriellen Schnittstelle wird auch ermöglicht.
 
 \subsection{Schaltung}
-Die Schaltung \ref{fig:abb3.3} des Hauptboards ist in mehrere Teile aufgeteilt und wird deshalb auch einzeln erklärt.
+Die Schaltung (Abb. \ref{fig:abb3.3}) des Hauptboards ist in mehrere Teile aufgeteilt und wird deshalb auch einzeln erklärt.
 \begin{figure} [h]
 	\centering
 	\caption{Schaltung des Hauptboards (Versorgung + BT-Modul)}
@@ -110,7 +110,7 @@ Der Spannungsregler LM317 (Bezeichnung: U201) stellt eine Versorgungsspannung vo
 \end{equation}
 Deshalb wird auch kein Kühlkörper benötigt, es wird aber trotzdem eine Alu-Platte an den LM317 geschraubt um sicher zu gehen. \\
 Ein eigener Stecker (Stiftleiste) für die Versorgung (12V) sowie die UART-Schnittstelle (RS232) sind auch vorgesehen. Der Wannenstecker (hier: \enquote{MediaControl}) ist mit allen wichtigen Pins des Moduls verbunden und verbindet eine Frontplatine mit dem Hauptboard. \\ \\
-Die Klinkenbuchse wird in der folgenden Additionsschaltung(\ref {fig:abb3.4}) weiterverwendet:
+Die Klinkenbuchse wird in der folgenden Additionsschaltung(Abb. \ref {fig:abb3.4}) weiterverwendet:
 \begin{figure} [h]
 	\centering
 	\caption{Schaltung des Hauptboards (Additionsschaltung)}
@@ -127,7 +127,7 @@ Mithilfe dieser OPV-Schaltung werden die zwei Audio-Signale (ein Addierer pro Ka
 Der Arbeitspunkt bei 6V am Pin 3 wird benötigt um am Ausgang eine Spannung von $\pm$6V zu erreichen. Der OPV wird hier als invertierender Verstärker mit Verstärkung 1 aufgebaut, aber er addiert hier die zwei Signale zusammen auf ein Ausgangssignal.
 
 \subsection{PCB}
-Die Platine(\ref {fig:abb3.6}) für das Hauptboard sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente auf einer Seite (hier rechts) haben. Das BT-Modul wird samt Adapter auf zwei Stiftleisten gesteckt. Darunter werden keine Bauteile verwendet, weil es sonst zu eng wäre. Des weiteren wären Bauteile unter dem Adapterprint während der Testphase unvorteilhaft, da diese schwerer zugänglich sind.
+Die Platine(Abb. \ref {fig:abb3.6}) für das Hauptboard sollte möglichst kompakt sein und alle Eingänge oder Bedienelemente auf einer Seite (hier rechts) haben. Das BT-Modul wird samt Adapter auf zwei Stiftleisten gesteckt. Darunter werden keine Bauteile verwendet, weil es sonst zu eng wäre. Des weiteren wären Bauteile unter dem Adapterprint während der Testphase unvorteilhaft, da diese schwerer zugänglich sind.
 \begin{figure} [h]
 	\centering
 	\caption{PCB des Hauptboards}
@@ -142,7 +142,7 @@ Die Platine(\ref {fig:abb3.6}) für das Hauptboard sollte möglichst kompakt sei
 Diese Platine ist eigentlich eine Erweiterung des Hauptboards. Es wird mit dem Hauptboard über einen 2x5-Wannenstecker verbunden und auch versorgt. Sonst sind nur die Taster zur Bedienung des BT-Moduls, sowie die Status-LED verbaut.
 
 \subsection{Schaltung}
-Die Taster werden jeweils mithilfe eines Kondensators entprellt. Die Höhe der Taster reicht über die Kondensatoren hinaus um eine Bedienung zu ermöglichen. (\ref{fig:abb3.7})
+Die Taster werden jeweils mithilfe eines Kondensators entprellt. Die Höhe der Taster reicht über die Kondensatoren hinaus um eine Bedienung zu ermöglichen. (Abb. \ref{fig:abb3.7})
 \begin{figure} [h]
 	\centering
 	\caption{Schaltung der Frontplatine}
@@ -152,7 +152,7 @@ Die Taster werden jeweils mithilfe eines Kondensators entprellt. Die Höhe der T
 Jeder der Taster ist mit dem 1,8V-Pin des Moduls verbunden und geht dann weiter auf den entsprechenden Funktionspin. Die Bezeichnung \enquote{LED+} entspricht der Versorgungsspannung (\enquote{VBAT} = 3,9V) des Moduls. \enquote{LED-} ist mit dem Ansteuerungssignal am BT-Modul verbunden (Pin 6).
 
 \subsection{PCB}
-Das PCB (\ref {fig:abb3.8}) der Frontplatine soll ebenfalls so klein wie möglich aber von der Bedienung her sinnvoll aufgebaut sein.
+Das PCB (Abb. \ref {fig:abb3.8}) der Frontplatine soll ebenfalls so klein wie möglich aber von der Bedienung her sinnvoll aufgebaut sein.
 \begin{figure} [h]
 	\centering
 	\caption{PCB der Frontplatine}
