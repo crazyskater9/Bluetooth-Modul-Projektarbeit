@@ -14,6 +14,10 @@
 \contentsline {section}{\numberline {3.3}Hauptboard}{8}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Funktion}{8}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Schaltung}{8}{subsection.3.3.2}
-\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{9}{chapter*.8}
-\contentsline {chapter}{Abbildungsverzeichnis}{10}{section*.9}
-\contentsline {chapter}{Tabellenverzeichnis}{10}{section*.11}
+\contentsline {subsection}{\numberline {3.3.3}PCB}{10}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Frontplatine}{11}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Funktion}{11}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Schaltung}{11}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}PCB}{12}{subsection.3.4.3}
+\contentsline {chapter}{\nonumberline Abk\IeC {\"u}rzungsverzeichnis}{13}{chapter*.13}
+\contentsline {chapter}{Abbildungsverzeichnis}{14}{section*.14}
