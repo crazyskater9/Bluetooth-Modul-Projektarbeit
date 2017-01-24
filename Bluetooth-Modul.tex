@@ -40,20 +40,59 @@ Bereits mit einer simplen Beschaltung kann das Modul in Betrieb genommen werden:
 \begin{figure} [h]
 	\centering
 	\caption{Prinzipschaltung XS3868}
-	\includegraphics[width=1\textwidth]{img/XS3868_Prinzipschaltung}
+	\includegraphics[width=1\textwidth]{schaltungen/XS3868_Prinzipschaltung}
 \end{figure} \\
 Mit dieser Schaltung kann das Modul bereits ordnungsgemäß arbeiten.\\
-Die Status-LED ist, wie in Abbildung 2.3 dargestellt, \enquote{Low-Aktiv}. Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.\\
-Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet. Dieser Ton wird auch beim Starten des Moduls abgespielt.\\
-Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noch ein Verstärker verbaut werden.\\
-Die Versorgungsspannung ist mit 4V etwas höher gewählt damit es nicht zu Ausfällen durch Spannungsschwankungen kommt. Das XS3868-Modul hat eine Stromaufnahme von ca. 30mA beim Starten, 10mA im Stand-By und bis zu 100mA wenn Musik abgespielt wird.
+Die Versorgungsspannung ist mit 4V etwas höher gewählt damit es nicht zu Ausfällen durch Spannungsschwankungen kommt. Das XS3868-Modul hat eine Stromaufnahme von ca. 30mA beim Starten, 10mA im Stand-By und bis zu 100mA wenn Musik abgespielt wird.\\ \\
+Die Status-LED ist, wie in Abbildung 2.3 dargestellt, \enquote{Low-Aktiv}. Beim Starten des Moduls und während der Suche nach Geräten blinkt sie durchgehend, wobei sie bei einer bestehenden Verbindung nur die Hälfte der Zeit blinkt.\\ \\
+Mit einfachem Betätigen eines Tasters wird die entsprechende Funktion vom Modul ausgeführt, jeweils mit einem Bestätigungston begleitet. Dieser Ton wird auch beim Starten des Moduls abgespielt.\\ \\
+Statt die Lautsprecher direkt an das Modul anzuschließen, sollte allerdings noch ein Verstärker verbaut werden.
+\newpage
 
 \section{Verbindung mit dem Modul}
-Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten. Er erscheint auf einem Smartphone so:
+Wenn der OVC3860 eingeschaltet ist, sucht er andauernd nach BT-Geräten. Mit einem Smartphone findet man das Gerät und kann sich mit einem Standard-PIN-Code (\enquote{0000}) verbinden. Wenn bereits Lautsprecher angeschlossen sind, wird ein Ton abgespielt, der die Verbindung bestätigt. Außerdem hat die Status-LED nun ein anderes Blinkverhalten (Mehrmaliges Blinken mit längeren Pausen).\\ \\
+Jetzt ist das Modul bereit Musik abzuspielen. Diese kann vom Smartphone oder vom Modul aus gesteuert werden. Die notwendigen Taster müssen allerdings schon in der Schaltung verbaut sein um die Bedienung der Musik zu ermöglichen.
 
-%% HIER FEHLT NOCH EIN BILD!!!!!
 
+\chapter{Zusatz-Leiterplatten}
+\section{Allgemeines}
+Als Entwicklungsprogramm für beide Leiterplatten wurde  \enquote{Altium Designer 13.3} verwendet. Die Schaltung wurde in diesem Programm gezeichnet, das Layout für die Leiterplatten angefertigt und entflechtet. Es wurden einseitige Platinen verwendet, da doppelseitige nicht notwendig waren.
 
+\section{Adapter-Board}
+Da das Modul in SMD-Bauform gefertigt ist, wurde ein Adapter-Board vorgesehen um eine einfachere Handhabung mit dem Modul zu ermöglichen. Als Anschlussmöglichkeiten werden Stiftleisten verwendet.\\
+Die Schaltung ist deshalb auch sehr simpel aufgebaut:
+\begin{figure} [h]
+	\centering
+	\caption{Schaltung vom Adapter-Board}
+	\includegraphics[width=1\textwidth]{schaltungen/adapter_sch.png}
+\end{figure} \\
+Jeder Pin bekommt auch auf dem Adapter einen eigenen Pin auf der Stiftleiste.
+\newpage
+Das PCB ist, wie bereits erwähnt, einseitig aufgebaut:
+\begin{figure} [h]
+	\centering
+	\caption{PCB vom Adapter-Board}
+	\includegraphics[width=1\textwidth]{schaltungen/adapter_pcb.png}
+\end{figure} \\
+Mit diesem PCB kann da BT-Modul nun besser getestet und auch weiterverwendet werden. Gemeinsam mit diesem Adapter kommt es auch auf das Hauptboard.
+\newpage
+
+\section{Hauptboard}
+\subsection{Funktion}
+Das Hauptboard wird hauptsächlich zur Versorgung des BT-Moduls, aber auch zur Weiterverarbeitung des Audio-Signals verwendet. Darüber hinaus ist eine Additionsschaltung vorgesehen, die das Signal des BT-Moduls mit einem zweiten, von einem Klinken-Eingang zugeführten, Signal vermischt. Die Lautstärke von diesem zweiten Audio-Signal kann über ein Stereo-Potentiometer geregelt werden. \\
+Weiterhin sind die Pins zur Bedienung der Musik an einen 2x5-Wannenstecker herausgeführt. Zugang zur seriellen Schnittstelle wird auch ermöglicht.
+\subsection{Schaltung}
+Die Schaltung des Hauptboards ist in mehrere Teile aufgeteilt und wird deshalb auch einzeln erklärt.
+\begin{figure} [h]
+	\centering
+	\caption{Schaltung vom Hauptboard (Versorgung + BT-Modul)}
+	\includegraphics[width=1\textwidth]{schaltungen/hauptboard_sch1.png}
+\end{figure} \\
+In diesem Teil der Schaltung ist zu sehen: die Versorgungsbuchse, die Versorgungsschaltung für das BT-Modul, das BT-Modul mit herausgeführten Pins und die Klinken-Buchse.\\ \\
+Der Spannungsregler LM317 (Bezeichnung: U201) stellt eine Versorgungsspannung von 3,9V für das BT-Modul ein. Mit einer maximalen Stromaufnahme von 100mA ergibt sich folgende Verlustleistung:
+\begin{equation}
+	P_{max} = 7,9V * 100mA = 0,79W
+\end{equation}
 
 
 
