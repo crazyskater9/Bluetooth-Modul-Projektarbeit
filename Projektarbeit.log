@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  24 JAN 2017 17:47
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.16)  24 JAN 2017 18:53
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  20 JAN 2017 15:57
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.9.16)  23 JAN 2017 18:56
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.11)  24 JAN 2017 19:56
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -2029,277 +2017,272 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 19.
-<img/blockschaltbild.png, id=135, 523.9575pt x 345.54094pt>
+<img/blockschaltbild.png, id=136, 523.9575pt x 345.54094pt>
 File: img/blockschaltbild.png Graphic file (type png)
 
 <use img/blockschaltbild.png>
-Package pdftex.def Info: img/blockschaltbild.png used on input line 26.
+Package pdftex.def Info: img/blockschaltbild.png used on input line 27.
 (pdftex.def)             Requested size: 344.16646pt x 226.97685pt.
-
-Overfull \hbox (6.57446pt too wide) in paragraph at lines 20--28
-\T1/cmr/m/n/12 In dem Chip ist au-ÿer der Bluetooth-Verbindung auch noch ein St
-ereo-Audio-Prozessor
- []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 31.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
-<img/XS3868_Pinbelegung.png, id=136, 1505.625pt x 1174.3875pt>
+(babel)             in language  on input line 31.
+
+<img/XS3868_Pinbelegung.png, id=137, 1505.625pt x 1174.3875pt>
 File: img/XS3868_Pinbelegung.png Graphic file (type png)
 
 <use img/XS3868_Pinbelegung.png>
-Package pdftex.def Info: img/XS3868_Pinbelegung.png used on input line 35.
+Package pdftex.def Info: img/XS3868_Pinbelegung.png used on input line 37.
 (pdftex.def)             Requested size: 430.20644pt x 335.56406pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 43.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 43.
  [2
 
  <./img/blockschaltbild.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
+(babel)             in language  on input line 45.
 
-<schaltungen/XS3868_Prinzipschaltung.png, id=142, 710.05275pt x 273.4215pt>
+<schaltungen/XS3868_Prinzipschaltung.png, id=144, 710.05275pt x 273.4215pt>
 File: schaltungen/XS3868_Prinzipschaltung.png Graphic file (type png)
 
 <use schaltungen/XS3868_Prinzipschaltung.png>
 Package pdftex.def Info: schaltungen/XS3868_Prinzipschaltung.png used on input 
-line 48.
+line 51.
 (pdftex.def)             Requested size: 430.20644pt x 165.66457pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--55
+Underfull \hbox (badness 10000) in paragraph at lines 46--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--55
+Underfull \hbox (badness 10000) in paragraph at lines 46--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--55
+Underfull \hbox (badness 10000) in paragraph at lines 46--58
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 [3 <./img/XS3868_Pinbelegung.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 58.
  [4 <./schaltungen/XS3868_Prinzipschaltung.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 61.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 [5]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 63.
+(babel)             in language  on input line 66.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
+(babel)             in language  on input line 67.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 71.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 68.
-<schaltungen/adapter_sch.png, id=161, 621.07031pt x 335.00156pt>
+(babel)             in language  on input line 71.
+<schaltungen/adapter_sch.png, id=166, 621.07031pt x 335.00156pt>
 File: schaltungen/adapter_sch.png Graphic file (type png)
 
 <use schaltungen/adapter_sch.png>
-Package pdftex.def Info: schaltungen/adapter_sch.png used on input line 74.
+Package pdftex.def Info: schaltungen/adapter_sch.png used on input line 78.
 (pdftex.def)             Requested size: 430.20644pt x 232.05098pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 81.
  [6
 
  <./schaltungen/adapter_sch.png>]
-<schaltungen/adapter_pcb.png, id=168, 563.85657pt x 536.0025pt>
+<schaltungen/adapter_pcb.png, id=174, 563.85657pt x 536.0025pt>
 File: schaltungen/adapter_pcb.png Graphic file (type png)
 
 <use schaltungen/adapter_pcb.png>
-Package pdftex.def Info: schaltungen/adapter_pcb.png used on input line 82.
+Package pdftex.def Info: schaltungen/adapter_pcb.png used on input line 87.
 (pdftex.def)             Requested size: 430.20644pt x 408.96098pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 90.
  [7 <./schaltungen/adapter_pcb.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 88.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
-Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 93.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 94.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 98.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 98.
 
-<schaltungen/hauptboard_sch1.png, id=175, 1065.22969pt x 469.755pt>
+<schaltungen/hauptboard_sch1.png, id=182, 1065.22969pt x 469.755pt>
 File: schaltungen/hauptboard_sch1.png Graphic file (type png)
 
 <use schaltungen/hauptboard_sch1.png>
-Package pdftex.def Info: schaltungen/hauptboard_sch1.png used on input line 98.
-
+Package pdftex.def Info: schaltungen/hauptboard_sch1.png used on input line 104
+.
 (pdftex.def)             Requested size: 430.20644pt x 189.71214pt.
 
-Overfull \hbox (7.51988pt too wide) in paragraph at lines 94--102
+Overfull \hbox (7.51988pt too wide) in paragraph at lines 99--108
 \T1/cmr/m/n/12 schal-tung für das BT-Modul, das BT-Modul mit her-aus-ge-führ-te
 n Pins und die Klinken-
  []
 
-<schaltungen/hauptboard_sch2.png, id=176, 1131.47719pt x 212.29312pt>
+<schaltungen/hauptboard_sch2.png, id=184, 1131.47719pt x 212.29312pt>
 File: schaltungen/hauptboard_sch2.png Graphic file (type png)
 
 <use schaltungen/hauptboard_sch2.png>
-Package pdftex.def Info: schaltungen/hauptboard_sch2.png used on input line 111
+Package pdftex.def Info: schaltungen/hauptboard_sch2.png used on input line 118
 .
 (pdftex.def)             Requested size: 430.20644pt x 80.71758pt.
 
-<schaltungen/hauptboard_sch2_zoom.png, id=177, 1088.56688pt x 478.78876pt>
+<schaltungen/hauptboard_sch2_zoom.png, id=185, 1088.56688pt x 478.78876pt>
 File: schaltungen/hauptboard_sch2_zoom.png Graphic file (type png)
 
 <use schaltungen/hauptboard_sch2_zoom.png>
 Package pdftex.def Info: schaltungen/hauptboard_sch2_zoom.png used on input lin
-e 117.
+e 124.
 (pdftex.def)             Requested size: 430.20644pt x 189.21811pt.
 
-Overfull \hbox (4.02379pt too wide) in paragraph at lines 104--121
+Overfull \hbox (4.02379pt too wide) in paragraph at lines 110--128
 \T1/cmr/m/n/12 Ein ei-ge-ner Ste-cker (Stift-leis-te) für die Ver-sor-gung (12V
 ) so-wie die UART-Schnittstelle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--121
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 128.
 [8 <./schaltungen/hauptboard_sch1.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 129.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 129.
 
-<schaltungen/hauptboard_pcb.png, id=189, 892.83563pt x 523.9575pt>
+<schaltungen/hauptboard_pcb.png, id=198, 892.83563pt x 523.9575pt>
 File: schaltungen/hauptboard_pcb.png Graphic file (type png)
 
 <use schaltungen/hauptboard_pcb.png>
-Package pdftex.def Info: schaltungen/hauptboard_pcb.png used on input line 127.
+Package pdftex.def Info: schaltungen/hauptboard_pcb.png used on input line 135.
 
 (pdftex.def)             Requested size: 430.20644pt x 252.46413pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
  [9 <./schaltungen/hauptboard_sch2.png> <./schaltungen/hauptboard_sch2_zoom.png
 >]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 129.
+(babel)             in language  on input line 137.
  [10 <./schaltungen/hauptboard_pcb.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 144.
 
-<schaltungen/front_sch.png, id=204, 612.03656pt x 613.54219pt>
+<schaltungen/front_sch.png, id=214, 612.03656pt x 613.54219pt>
 File: schaltungen/front_sch.png Graphic file (type png)
 
 <use schaltungen/front_sch.png>
-Package pdftex.def Info: schaltungen/front_sch.png used on input line 141.
+Package pdftex.def Info: schaltungen/front_sch.png used on input line 150.
 (pdftex.def)             Requested size: 301.14319pt x 301.88344pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 145.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 145.
+(babel)             in language  on input line 154.
 
-<schaltungen/front_pcb.png, id=205, 772.38562pt x 591.71063pt>
+<schaltungen/front_pcb.png, id=216, 772.38562pt x 591.71063pt>
 File: schaltungen/front_pcb.png Graphic file (type png)
 
 <use schaltungen/front_pcb.png>
-Package pdftex.def Info: schaltungen/front_pcb.png used on input line 150.
+Package pdftex.def Info: schaltungen/front_pcb.png used on input line 160.
 (pdftex.def)             Requested size: 430.20644pt x 329.57703pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 163.
  [11 <./schaltungen/front_sch.png>])
 (tex/abkuerzungen.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -2355,24 +2338,10 @@ Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 7232814B148529B05BBC9CC27B048687;1305.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 41362 strings out of 493333
- 859632 string characters out of 3139197
- 1118259 words of memory out of 3000000
- 44232 multiletter control sequences out of 15000+200000
-=======
-<<<<<<< HEAD
- 41317 strings out of 493334
- 864233 string characters out of 3136669
- 1118764 words of memory out of 3000000
- 44174 multiletter control sequences out of 15000+200000
-=======
-<<<<<<< HEAD
- 41319 strings out of 493333
- 858804 string characters out of 3139197
- 1118063 words of memory out of 3000000
- 44209 multiletter control sequences out of 15000+200000
->>>>>>> origin/master
+ 41416 strings out of 493333
+ 860747 string characters out of 3139197
+ 1120910 words of memory out of 3000000
+ 44272 multiletter control sequences out of 15000+200000
  30844 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,10n,108p,10449b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2380,46 +2349,15 @@ Here is how much of TeX's memory you used:
 cbx1200.pk> <C:\Users\Andi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ecsl1200.pk> <C:\Users\Andi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
 nappen\ec\dpi600\ecrm1200.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/
-<<<<<<< HEAD
 8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/helvetic/uhvr8a.pfb>
-Output written on Projektarbeit.pdf (13 pages, 2691447 bytes).
-=======
-8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on Projektarbeit.pdf (9 pages, 2257866 bytes).
-=======
- 41283 strings out of 493334
- 863358 string characters out of 3136669
- 1117723 words of memory out of 3000000
- 44154 multiletter control sequences out of 15000+200000
->>>>>>> origin/master
- 30844 words of font info for 50 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 73i,10n,108p,10449b,494s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecsl1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecrm1200.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc
-/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-<<<<<<< HEAD
-Output written on Projektarbeit.pdf (16 pages, 3377423 bytes).
-=======
-Output written on Projektarbeit.pdf (13 pages, 2691544 bytes).
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+Output written on Projektarbeit.pdf (16 pages, 3388708 bytes).
 PDF statistics:
- 410 PDF objects out of 1000 (max. 8388607)
+ 421 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
  254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
